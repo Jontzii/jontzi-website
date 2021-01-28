@@ -40,7 +40,6 @@ p {
 
 div {
   text-align: center;
-  
 }
 
 html, body {
@@ -48,7 +47,10 @@ html, body {
   height: 100%;
   margin: 0; 
   padding: 0;
+  
   background-color: #333333;
+  
+  font-family: 'Nunito', sans-serif;
   color: #f3f3f3;
 }
 
