@@ -1,48 +1,84 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2E6DL1143"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-K2E6DL1143"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-K2E6DL1143');
+      gtag("config", "G-K2E6DL1143");
     </script>
 
     <title>Joonas Hiltunen</title>
 
     <!--META-->
-    <meta charset="utf-8">
-    <meta name="description" content="Personal website of Joonas Hiltunen. The site contains some links to my other social medias.">
-    <meta name="author" conent="Joonas Hiltunen">
-    <meta name="keywords" content="Joonas, Hiltunen, Joonas Hiltunen, Jontzi, Jontzii, Website, Homepage, Software, Software Developer">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./images/icons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Personal website of Joonas Hiltunen. The site contains some links to my other social medias."
+    />
+    <meta name="author" conent="Joonas Hiltunen" />
+    <meta
+      name="keywords"
+      content="Joonas, Hiltunen, Joonas Hiltunen, Jontzi, Jontzii, Website, Homepage, Software, Software Developer"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta http-equiv="cache-control" content="Public" />
+    <meta http-equiv="Expires" content="3600" />
 
-    <!--Ref-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/icons/favicon-16x16.png">
-    <link rel="manifest" href="./images/icons/site.webmanifest">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" type="text/css" href="./style/styles.css">
-    <link rel="stylesheet" type="text/css" href="./style/hover.css">
+    <!--Icons-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/images/icons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/images/icons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/images/icons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="/images/icons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#333333" />
+
+    <!--Styles-->
+    <link rel="stylesheet" type="text/css" href="./style/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./style/hover.css" />
   </head>
   <body onload="LoaderFunction()">
     <div id="loader"></div>
 
-    <div style="display: none;" class="grid" id="grid">
+    <div style="display: none" class="grid" id="grid">
       <div id="left">
-        <img src="./images/profile/profile_square.jpg">
+        <img src="./images/profile/profile_square.avif" alt="profile_square" />
       </div>
 
       <div id="right">
@@ -51,9 +87,26 @@
           <p>Software Developer</p>
 
           <div id="social">
-            <a href="https://www.linkedin.com/in/joohiltunen/" target="_blank" class="hvr-float-shadow"><img src="images/social/linkedin.png"></a>
-            <a href="https://github.com/jontzii" target="_blank" class="hvr-float-shadow"><img src="images/social/github.png"></a>
-            <a href="mailto:hello@jontzi.com?subject=Hello from the website" class="hvr-float-shadow"><img src="images/social/email.png"></a>
+            <a
+              href="https://www.linkedin.com/in/joohiltunen/"
+              target="_blank"
+              class="hvr-float-shadow"
+            >
+              <img src="images/social/linkedin.png" alt="linkedin_logo" />
+            </a>
+            <a
+              href="https://github.com/jontzii"
+              target="_blank"
+              class="hvr-float-shadow"
+            >
+              <img src="images/social/github.png" alt="github_logo" />
+            </a>
+            <a
+              href="mailto:hello@jontzi.com?subject=Hello from the website"
+              class="hvr-float-shadow"
+            >
+              <img src="images/social/email.png" alt="email_icon" />
+            </a>
           </div>
         </div>
       </div>
